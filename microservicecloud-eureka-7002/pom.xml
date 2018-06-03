@@ -23,4 +23,8 @@
   		<artifactId>spring-boot-devtools</artifactId>
   	</dependency>
   </dependencies>
+  
+  <build>
+  	<finalName>microservicecloudEureka7002</finalName>
+  </build>
 </project>

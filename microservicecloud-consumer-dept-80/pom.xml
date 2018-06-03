@@ -18,6 +18,20 @@
   		<groupId>org.springframework.boot</groupId>
   		<artifactId>spring-boot-starter-web</artifactId>
   	</dependency>
+  	<!-- ribbon负载均衡 -->
+  	<dependency>
+  		<groupId>org.springframework.cloud</groupId>
+  		<artifactId>spring-cloud-starter-eureka</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework.cloud</groupId>
+  		<artifactId>spring-cloud-starter-config</artifactId>
+  	</dependency>
+	<dependency>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-ribbon</artifactId>
+	</dependency>  	
+  	
   	<!-- 修改后立即生效，热部署 -->
   	<dependency>
   		<groupId>org.springframework</groupId>
@@ -28,4 +42,8 @@
   		<artifactId>spring-boot-devtools</artifactId>
   	</dependency>
   </dependencies>
+  
+  <build>
+  	<finalName>microservicecloudConsumerDept80</finalName>
+  </build>
 </project>
